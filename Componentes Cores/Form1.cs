@@ -43,5 +43,21 @@ namespace Componentes_Cores
                 Application.Exit();
             }
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            form4.Show();
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            form5.Show();
+        }
     }
 }
