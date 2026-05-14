@@ -30,7 +30,7 @@ namespace Componentes_Cores
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.Yellow;
+            panel2.BackColor = Color.Orange;
             checkBox2.ForeColor = Color.White;
 
             if (checkBox2.Checked == false)
@@ -62,6 +62,11 @@ namespace Componentes_Cores
                 panel4.BackColor = SystemColors.Control;
                 checkBox4.ForeColor = SystemColors.ControlText;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

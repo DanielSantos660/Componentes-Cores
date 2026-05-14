@@ -21,24 +21,45 @@ namespace Componentes_Cores
         {
             this.BackColor = Color.Purple;
             radioButton8.ForeColor = Color.Violet;
+            if (radioButton8.Checked == false)
+            {
+                radioButton8.ForeColor = SystemColors.ControlText;
+            }
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
-            this.BackColor = Color.Pink;
+            this.BackColor = Color.Magenta;
             radioButton7.ForeColor = Color.LightPink;
+            if (radioButton7.Checked == false)
+            {
+                radioButton7.ForeColor = SystemColors.ControlText;
+            }
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
             this.BackColor = Color.Blue;
             radioButton6.ForeColor = Color.LightBlue;
+            if (radioButton6.Checked == false)
+            {
+                radioButton6.ForeColor = SystemColors.ControlText;
+            }
         }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
             this.BackColor = Color.Green;
-            this.BackColor = Color.LightGreen;
+            radioButton5.ForeColor = Color.LightGreen;
+            if (radioButton5.Checked == false)
+            {
+                radioButton5.ForeColor = SystemColors.ControlText;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
