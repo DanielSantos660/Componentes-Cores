@@ -61,15 +61,16 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Verde - Lima",
-            "Azul - Marinho",
-            "Rosa claro",
+            "Azul - Turquesa",
+            "Rosa Claro",
             "Ciano"});
-            this.comboBox1.Location = new System.Drawing.Point(193, 215);
+            this.comboBox1.Location = new System.Drawing.Point(156, 215);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(149, 21);
+            this.comboBox1.Size = new System.Drawing.Size(227, 39);
             this.comboBox1.TabIndex = 13;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 

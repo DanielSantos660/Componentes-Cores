@@ -21,15 +21,15 @@ namespace Componentes_Cores
         {
             
             switch (comboBox1.Text)
-            {
+            {   
                 case "Verde - Lima":
                     this.BackColor = Color.Lime;
                     comboBox1.ForeColor = Color.Lime;
                     break;
 
-                case "Azul - Marinho":
-                    this.BackColor = Color.Navy;
-                    comboBox1.ForeColor= Color.Navy;
+                case "Azul - Turquesa":
+                    this.BackColor = Color.FromArgb(82, 183, 189);
+                    comboBox1.ForeColor= Color.FromArgb(82, 183, 189);
                     break;
 
                 case "Rosa Claro":
